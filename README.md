@@ -4,14 +4,17 @@ A falling-block puzzle game for [Orca](https://github.com/stablyai/orca)'s right
 
 ## Install
 
-1. Unzip `orca-dnb-plugin.zip` somewhere you will keep it (for example `~/orca-plugins/orca-dnb-plugin`).
-2. Install it, either:
-   - **Terminal:** `orca plugin install ~/orca-plugins/orca-dnb-plugin`
-     Orca asks you to approve it: re-run the command with the `--approve <fingerprint>` it prints.
-   - **Orca app:** Settings → Plugins → Development folders… → add the unzipped folder, then review and enable it.
-3. Open the **puzzle** icon in Orca's right sidebar → **DnB!**
+```sh
+orca plugin install thanut-suw-work/orca-dnb-plugin
+```
 
-Requires Orca 1.4.246 or later.
+Orca asks you to approve it: re-run the command with the `--approve <fingerprint>` it prints. Then open the **puzzle** icon in Orca's right sidebar → **DnB!**
+
+Requires Orca 1.4.246 or later. Update later with `orca plugin update`.
+
+### From a zip instead
+
+Unzip the folder somewhere you will keep it, then run `orca plugin install <folder>` (or Settings → Plugins → Development folders… → add it).
 
 ## Controls
 
