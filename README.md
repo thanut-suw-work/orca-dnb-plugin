@@ -34,6 +34,19 @@ Click the game first so it gets keyboard focus.
 - Fully offline: the whole game is inlined in `panel/index.html`; no network requests or tracking.
 - High score and settings stay in the panel's own `localStorage`.
 
+## Build from source
+
+The game's full source is in [`source/`](source). `panel/index.html` is built from it: one self-contained file with the JS and CSS inlined, because Orca panels have no network.
+
+```sh
+cd source
+npm install
+npm run build              # writes ../panel/index.html
+rm -rf node_modules        # Orca refuses a plugin folder that contains node_modules
+```
+
+`npm run typecheck` checks the TypeScript. Dependency versions are pinned in `source/package.json` and `source/package-lock.json`.
+
 ## Credits and license
 
 DnB! was made by Thanut Suwannawong with the help of Grok (xAI's app builder), then packaged as an Orca plugin.

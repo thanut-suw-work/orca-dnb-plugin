@@ -1,0 +1,10 @@
+/* The game's Tailwind styles; Tailwind scans this folder for utility classes. */
+@import "./styles.css";
+@source "./";
+
+/* Orca panels cannot load web fonts from the network, so use system fonts. */
+:root {
+  --font-display: system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-sans: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+html, body, #app { height: 100%; margin: 0; overflow: hidden; }
