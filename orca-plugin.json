@@ -1,0 +1,25 @@
+{
+  "manifestVersion": 2,
+  "id": "dnb-drop-and-boom",
+  "name": "DnB! Drop and Boom",
+  "version": "1.0.0",
+  "execution": "sandboxed-ui",
+  "description": "DnB!: Drop and Boom! falling-block puzzle game, playable offline in Orca's sidebar.",
+  "license": "MIT",
+  "repository": "https://github.com/thanut-suwannawong_scbtechx/orca-dnb-plugin",
+  "icon": "icon.png",
+  "engines": {
+    "orca": ">=1.4.246"
+  },
+  "contributes": {
+    "panels": [
+      {
+        "id": "game",
+        "title": "DnB!",
+        "icon": "blocks",
+        "entry": "panel/index.html"
+      }
+    ]
+  },
+  "capabilities": []
+}
