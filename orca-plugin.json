@@ -15,7 +15,7 @@
       {
         "id": "game",
         "title": "DnB!",
-        "icon": "blocks",
+        "icon": "puzzle",
         "entry": "panel/index.html"
       }
     ]

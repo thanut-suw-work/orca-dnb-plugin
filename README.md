@@ -9,7 +9,7 @@ A falling-block puzzle game for [Orca](https://github.com/stablyai/orca)'s right
    - **Terminal:** `orca plugin install ~/orca-plugins/orca-dnb-plugin`
      Orca asks you to approve it: re-run the command with the `--approve <fingerprint>` it prints.
    - **Orca app:** Settings → Plugins → Development folders… → add the unzipped folder, then review and enable it.
-3. Open the **blocks** icon in Orca's right sidebar → **DnB!**
+3. Open the **puzzle** icon in Orca's right sidebar → **DnB!**
 
 Requires Orca 1.4.246 or later.
 
