@@ -2,7 +2,7 @@
   "manifestVersion": 2,
   "id": "dnb-drop-and-boom",
   "name": "DnB! Drop and Boom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "execution": "sandboxed-ui",
   "description": "DnB!: Drop and Boom! falling-block puzzle game, playable offline in Orca's sidebar.",
   "license": "MIT",

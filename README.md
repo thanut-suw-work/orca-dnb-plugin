@@ -34,6 +34,8 @@ Click the game first so it gets keyboard focus.
 - Fully offline: the whole game is inlined in `panel/index.html`; no network requests or tracking.
 - High score and settings stay in the panel's own `localStorage`.
 
-## License
+## Credits and license
 
-MIT
+DnB! was made by Thanut Suwannawong with the help of Grok (xAI's app builder), then packaged as an Orca plugin.
+
+Free to use, share and modify under the [MIT License](LICENSE). The bundled open-source libraries keep their own licenses: see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
